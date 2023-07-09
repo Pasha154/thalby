@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 16px 0px;
+}
+.container{
+    max-width: 1064px;
+    margin: auto;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    margin-left: -5%;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin-right: 28px;
+}
+
+.icon{
+    list-style: none;
+    display: inline-flex;
+}
+.icon li{
+    margin-right: 5px;
+}

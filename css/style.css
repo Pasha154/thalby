@@ -5,27 +5,34 @@
 header{
     padding: 16px 0px;
 }
-.container{
+.container {
     max-width: 1064px;
     margin: auto;
-}
-header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
+
+
 .logo{
     position: absolute;
     left: 50%;
-    top: 20px;
+    top: 25px;
     margin-left: -5%;
 }
 header nav ul{
     list-style: none;
     display: flex;
+
+
 }
 header nav ul li{
     margin-right: 28px;
+}
+header nav ul li a{
+    text-decoration: none;
 }
 
 .icon{

@@ -42,3 +42,51 @@ header nav ul li a{
 .icon li{
     margin-right: 5px;
 }
+.main_screen{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0EFEB;
+    padding: 90px;
+}
+.main_screen article h1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 42px;
+}
+.main_screen article p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 26px;
+}
+.main_screen div{
+    position: relative;
+    right: 70px;
+    bottom: 70px;
+}
+.bottom_1{
+    width: 129px;
+    height: 36px;
+    flex-shrink: 0;
+    background-color: black;
+    border-radius: 100px;
+    display: inline-block;
+    text-align: center;
+    padding: 7px 23px;
+}
+.main_screen article a{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}

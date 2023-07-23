@@ -30,6 +30,7 @@ header {
 .main_screen {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #F0EFEB;
   padding: 90px; }
   .main_screen article h1 {
@@ -336,3 +337,112 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal; }
+
+.rec {
+  background: linear-gradient(to bottom, white 50%, #F0F0F0 50%); }
+  .rec div h3 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 102px; }
+  .rec .container {
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; }
+    .rec .container article img {
+      display: block; }
+    .rec .container article h5 {
+      color: #000;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.6px;
+      max-width: 248px; }
+    .rec .container article p {
+      color: #000;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal; }
+    .rec .container article a {
+      color: #000;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration-line: underline; }
+
+.forms {
+  padding: 79px 87px;
+  text-align: center; }
+  .forms div h2 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; }
+  .forms div h4 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; }
+  .forms .bottom_2 {
+    width: 129px;
+    height: 36px;
+    flex-shrink: 0;
+    background-color: black;
+    border-radius: 100px;
+    display: inline-block;
+    text-align: center;
+    padding: 7px 23px; }
+  .forms div a {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 7px 10px; }
+  .forms .two_input input {
+    position: relative;
+    left: 23px;
+    margin-right: 50px;
+    width: 153px;
+    height: 39px;
+    flex-shrink: 0;
+    padding: 12px 11px; }
+  .forms .two_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px; }
+  .forms .email {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px; }
+    .forms .email input {
+      width: 357px;
+      height: 39px;
+      flex-shrink: 0;
+      padding: 12px 11px; }

@@ -1,0 +1,53 @@
+@media screen and (max-width: 1357px) {
+    .photo_main{
+        max-width: 450px;
+    }
+}
+@media screen and (max-width: 1212px) {
+     .main_screen h1  {
+        max-width: 300px;
+    }
+    .main_screen p{
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 1042px) {
+    .heritage .container {
+        position: unset;
+
+    }
+}
+@media screen and (max-width: 1072px) {
+    .rec .container{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 987px) {
+    footer {
+        height: unset;
+    }
+
+    footer .container .about{
+        margin-right: -50px;
+
+    }
+}
+@media screen and (max-width: 857px) {
+    .fall_deeper .fall_deeper_text{
+        padding-bottom: 20px;
+    }
+    footer .social_networks{
+        margin-right: 400px;
+        padding-left: 24px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+  .fall_deeper{
+      display: flex;
+      flex-wrap: wrap;
+  }
+}
+

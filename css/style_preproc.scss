@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
 @import "mobile_menu.css";
 
 header{
@@ -20,6 +21,12 @@ header{
     li{
       margin-right: 28px;
       a{
+        color: #1C1B1B;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26.4px;
         text-decoration: none;
       }
     }
@@ -558,6 +565,92 @@ header{
       padding: 12px 11px;
     }
 
+  }
+}
+footer {
+  padding: 51px 16px;
+  background-color: #020202;
+  height: 291px;
+
+  .container {
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    .logo_2{
+      margin-bottom: 56px;
+    }
+    .foot {
+      display: flex;
+      justify-content: space-between;
+      max-width: 129px;
+      flex-wrap: wrap;
+      margin-right: 585px;
+    }
+    .about{
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      position: relative;
+      margin-right: 80px;
+      top: 35px;
+      .abot_1{
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23.1px;
+        margin-bottom: 36px;
+        text-decoration: none;
+      }
+      .about_2{
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 12px;
+        text-decoration: none;
+      }
+    }
+    .contact{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      bottom: -2px;
+      .cont{
+        margin-bottom: 36px;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23.1px;
+        text-decoration: none;
+      }
+      .about_2{
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        text-decoration: none;
+        margin-bottom: 12px;
+      }
+    }
+  }
+  .llc{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.1px;
   }
 }
 

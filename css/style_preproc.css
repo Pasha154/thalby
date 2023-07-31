@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap");
 @import url(mobile_menu.css);
 header {
   padding: 16px 0px; }
@@ -17,6 +18,12 @@ header {
     header nav ul li {
       margin-right: 28px; }
       header nav ul li a {
+        color: #1C1B1B;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26.4px;
         text-decoration: none; }
   header .icon {
     list-style: none;
@@ -446,3 +453,78 @@ header {
       height: 39px;
       flex-shrink: 0;
       padding: 12px 11px; }
+
+footer {
+  padding: 51px 16px;
+  background-color: #020202;
+  height: 291px; }
+  footer .container {
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center; }
+    footer .container .logo_2 {
+      margin-bottom: 56px; }
+    footer .container .foot {
+      display: flex;
+      justify-content: space-between;
+      max-width: 129px;
+      flex-wrap: wrap;
+      margin-right: 585px; }
+    footer .container .about {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      position: relative;
+      margin-right: 80px;
+      top: 35px; }
+      footer .container .about .abot_1 {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23.1px;
+        margin-bottom: 36px;
+        text-decoration: none; }
+      footer .container .about .about_2 {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 12px;
+        text-decoration: none; }
+    footer .container .contact {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      bottom: -2px; }
+      footer .container .contact .cont {
+        margin-bottom: 36px;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23.1px;
+        text-decoration: none; }
+      footer .container .contact .about_2 {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        text-decoration: none;
+        margin-bottom: 12px; }
+  footer .llc {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.1px; }
